@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.nhn.controller&apos; to &apos;com.nhn.dao&apos;&#x0A;- Original project: &apos;springAssign&apos;&#x0A;- Original element: &apos;springAssign/src/main/java/com.nhn.controller&apos;&#x0A;- Renamed element: &apos;springAssign/src/main/java/com.nhn.dao&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.nhn.controller&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.nhn.controller" name="com.nhn.dao" qualified="false" references="true" stamp="1403712693346" textual="false" version="1.0"/>
+</session>

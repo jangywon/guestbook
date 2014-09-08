@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!DOCTYPE sqlMap 
+PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" 
+"http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="Item">
+	<typeAlias alias="Item" type="logic.Item" />
+	<resultMap id="itemList" class="Item">
+		<result property="title" column="title" />
+		<result property="content" column="content" />
+		<result property="password" column="password" />
+		<result property="email" column="email" />
+	</resultMap>
+
+	<select id="getItemList" resultMap="itemList">
+		SELECT title, content,
+		password, email FROM item
+	</select>
+
+</sqlMap>

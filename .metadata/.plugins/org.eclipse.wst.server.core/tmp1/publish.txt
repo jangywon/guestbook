@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Jun 28 17:31:47 KST 2014
+org.eclipse.jst.jee.server\:assignment=/Users/MacBookPro/springsource/vfabric-tc-server-developer-2.9.5.SR1/base-instance/wtpwebapps/assignment
+org.eclipse.jst.jee.server\:NhnSpring=/Users/MacBookPro/springsource/vfabric-tc-server-developer-2.9.5.SR1/base-instance/wtpwebapps/NhnSpring
